@@ -9,10 +9,23 @@
     <link rel="stylesheet" href="fonts/Lato-Regular.ttf">
     <link rel="stylesheet" href="fonts/Lato-SemiBold.ttf">
     <link rel="stylesheet" href="fonts/ofont.ru_Georgia.ttf">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <ul id="slide-out" class="sidenav">
+        <li><a href="#!"><i class="material-icons">help_outline</i>Why Alivio</a></li>
+        <li><a href="#!"><i class="material-icons">emoji_objects</i>Solutions</a></li>
+        <li><a href="#!"><i class="material-icons">forum</i>Community</a></li>
+        <li><a href="#!"><i class="material-icons">price_check</i>Pricing</a></li>
+        <li><a class="nav__sign" href="">Sign in</a></li> 
+        <li><button class="nav__btn" type="button">Start Trial</button></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Close</a></li>
+    </ul>
     <nav class="nav">
         <div class="container">
             <div class="nav__flex">
@@ -28,6 +41,11 @@
                     </ul>
                 </div>
                 <div class="nav__flex-right">
+                    <a class="burger sidenav-trigger" data-target="slide-out">
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </a>
                     <a class="nav__sign" href="">Sign in</a>
                     <button class="btn nav__btn" type="button">Start Trial</button>
                 </div>
@@ -140,6 +158,8 @@
             </ul>
         </div>
     </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
