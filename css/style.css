@@ -718,6 +718,7 @@ video {
 
     .product__flex-left {
         order: 1;
+        margin-right: 0;
     }
 
     .product__flex-right {
@@ -725,14 +726,14 @@ video {
     }
 
     .product__img {
-        width: 310px;
-        height: 310px;
+        width: 300px;
+        height: 300px; 
         position: relative;
     }
 
     .product__card {
         width: 100%;
-        left: 35%;
+        left: 50%;
     }
 }
 
