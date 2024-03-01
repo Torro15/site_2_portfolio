@@ -747,11 +747,18 @@ video {
         padding-left: 0;
         padding-right: 0;
     }
+    
+    .product__img {
+       width: 275px;
+       height: 275px;
+    }
 
+    .product__card {
+        left: 50%;
+    }
 
     .release__flex {
         width: 100%;
-
     }
 }
 
